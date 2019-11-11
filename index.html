@@ -1,0 +1,17 @@
+---
+layout: main
+title: home
+---
+
+<!-- <h2>Hello from Css Advanced</h2> -->
+
+<img src="/assets/liv-room.jpg">
+
+<ul>
+{% for post in site.posts %}
+<li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    
+</li>
+{% endfor %}
+</ul>

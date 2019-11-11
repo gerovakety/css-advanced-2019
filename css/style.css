@@ -1,0 +1,9 @@
+@import url('/assets/liv-room.jpg');
+
+body {
+    background-color: darkkhaki;
+}
+
+img {
+    width: 20%;
+}
