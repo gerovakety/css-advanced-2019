@@ -1,7 +1,12 @@
 @import url('/assets/liv-room.jpg');
 
 body {
-    background-color: darkkhaki;
+    background-color: rgb(248, 246, 214);
+}
+
+
+header img {
+    margin-left: 20px;  
 }
 
 img {
