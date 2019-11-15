@@ -7,7 +7,28 @@
     <link rel="stylesheet" href="css/style.css">
     <title>{{ site.title }}</title>
 </head>
-<body>   
+<body> 
+    
+    <div class="site">
+        <header class="site-header">
+            <h1><a href="/">{{ site.title }}</a></h1>
+            <p>{{ site.description }}</p>
+
+            
+            <nav>
+                <ul>
+                {% for page in site.pages %}
+                    {% if page.title %}
+                    <li><a href="{{ page.url }}">{{ page.title }}</a></li> 
+                    {% endif %}
+                {% endfor %}
+                   
+                </ul>
+            </nav>
+        </header>
+
+
+    </div>
             
             {{ content }}
       

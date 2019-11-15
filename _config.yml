@@ -1,5 +1,5 @@
 
-title: CSS Advanced 2019
+title: VALKET
 email: gerovakety@abv.bg
 description: Simple description
 destination: docs
@@ -9,7 +9,7 @@ twitter_username: gerova.ekaterina
 github_username:  gerovakety
 
 # Build settings
-markdown: karmdown
+markdown: kramdown
 plugins:
   - jekyll-feed
 
