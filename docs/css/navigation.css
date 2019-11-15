@@ -1,0 +1,28 @@
+.site-nav {
+  display: flex;
+}
+
+.site-nav ul {
+    display: flex;
+}
+
+.site-nav ul li {
+   display: block; 
+}
+
+.site-nav ul li img {
+    width: 50%;
+ }
+
+.site-nav a {
+    display: block;
+    padding: 0.5em 1em;
+    background: #EEE;
+    color: #333;
+    text-decoration: none;
+}
+
+.site-nav a:hover {
+    background: green;
+    color: #FFF;
+}
