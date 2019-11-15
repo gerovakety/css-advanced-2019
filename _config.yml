@@ -4,7 +4,7 @@ image: /images/logo-header.png
 email: gerovakety@abv.bg
 description: Simple description
 destination: docs
-baseurl: ""
+baseurl: "/css-advanced-2019"
 url: "" 
 twitter_username: gerova.ekaterina
 github_username:  gerovakety
@@ -14,11 +14,12 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
-# exclude:
-#    - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - docs
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
