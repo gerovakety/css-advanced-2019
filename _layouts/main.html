@@ -15,12 +15,12 @@
             <nav class="site-nav">
                 <ul>
                     <li><h1>{{ site.title }}</h1></li>
-                    <li><img src="{{ site.image }}"></li>
+                    <li><img src="{{ site.baseurl }}{{ site.image }}"></li>
                 </ul>
                 <ul>
                 {% for page in site.pages %}
                     {% if page.title %}
-                    <li><a href="{{ page.url }}">{{ page.title }}</a></li> 
+                    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li> 
                     {% endif %}
                 {% endfor %}
                    
