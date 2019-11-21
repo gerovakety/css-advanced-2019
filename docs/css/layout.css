@@ -1,9 +1,6 @@
 body {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-
-.site {
-    max-width: 60em;
-    margin: 0 auto;
-
-}
