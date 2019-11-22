@@ -1,0 +1,29 @@
+{
+  "name": "css-advanced-2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerovakety/css-advanced-2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerovakety/css-advanced-2019/issues"
+  },
+  "homepage": "https://github.com/gerovakety/css-advanced-2019#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "child-process": "^1.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-size": "^3.0.0"
+  }
+}
