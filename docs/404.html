@@ -4,18 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css-advanced-2019/css/site.css">
+    <link rel="stylesheet" href="/css/site.css">
+    <script>
+            window.addEventListener('load', (event) => {
+                document.querySelector( "body" ).classList.add( "loaded");
+            });
+        </script>
+
     <title>VALKET</title>
 </head>
-<body> 
+<body class="page-"> 
     
     <div class="site">
-        <header class="site-header"> 
+        <input type="checkbox" id="site-nav-toggle" class="site-nav-toggle">
+
+        <header class="site-header">
+            
+            <label for="site-nav-toggle" class="site-nav-toggle"><i class="fas fa-bars"></i></label>
+            
             <nav class="site-nav">
     <ul>
         
         
-        <li><img src="/css-advanced-2019/images/logo-header.png"></li>
+        <li><img src="/images/logo-header.png"></li>
         <li><h1>VALKET</h1></li>
     </ul>
     <ul>
@@ -26,19 +37,19 @@
         
         
         
-        <li><a href="/css-advanced-2019/">Home</a></li> 
+                <li class="page-title-"><a href="/">Home</a></li> 
         
         
         
-        <li><a href="/css-advanced-2019/about/">About</a></li> 
+                <li class="page-title-"><a href="/about/">About</a></li> 
         
         
         
-        <li><a href="/css-advanced-2019/gallery/">Gallery</a></li> 
+                <li class="page-title-"><a href="/gallery/">Gallery</a></li> 
         
         
         
-        <li><a href="/css-advanced-2019/contacts/">Contacts</a></li> 
+                <li class="page-title-"><a href="/contacts/">Contacts</a></li> 
         
         
         
@@ -55,6 +66,7 @@
         <main class="site-main">
             
             404 Not Found
+            
         </main>
 
         <footer class="site-footer">

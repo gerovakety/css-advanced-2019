@@ -5,12 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
+    <script>
+            window.addEventListener('load', (event) => {
+                document.querySelector( "body" ).classList.add( "loaded");
+            });
+        </script>
+
     <title>{{ site.title }}</title>
 </head>
-<body> 
+<body class="page-{{ page.title | slugify }}"> 
     
     <div class="site">
-        <header class="site-header"> 
+        <input type="checkbox" id="site-nav-toggle" class="site-nav-toggle">
+
+        <header class="site-header">
+            
+            <label for="site-nav-toggle" class="site-nav-toggle"><i class="fas fa-bars"></i></label>
+            
             {% include navigation.html %}
              
             <section>
@@ -23,6 +34,7 @@
         <main class="site-main">
             
             {{ content }}
+            
         </main>
 
         <footer class="site-footer">
