@@ -9,7 +9,7 @@ let gulp = require("gulp"),
 	cp = require("child_process");
 
 gulp.task("sass", function() {
-	return gulp.src( '_assets/scss/**/*.scss' )
+	return gulp.src( '_scss/**/*.scss' )
 		.pipe( size() )
 		.pipe( sass().on('error', sass.logError) )
 		.pipe( autoprefixer() )
