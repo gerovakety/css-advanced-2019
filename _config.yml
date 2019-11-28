@@ -4,8 +4,8 @@ image: /images/logo-header.png
 email: gerovakety@abv.bg
 description: Simple description
 destination: docs
-# baseurl: "/css-advanced-2019"
-baseurl: ""
+baseurl: "/css-advanced-2019"
+# baseurl: ""
 url: "" 
 twitter_username: gerova.ekaterina
 github_username:  gerovakety
