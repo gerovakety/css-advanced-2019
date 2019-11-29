@@ -9,7 +9,6 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     padding: 1em 4em;
-    text-align: center;
   
 }
 
@@ -70,4 +69,13 @@ body {
 
 .education ul li h4 strong {
     color: black;      
+}
+
+.skills {
+    display: block;
+    margin: 5px 60px 30px 60px;
+}
+
+.skills i {
+    margin-right: 3px;        
 }
