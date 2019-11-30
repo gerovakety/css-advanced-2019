@@ -15,7 +15,7 @@ plugins:
   - jekyll-feed
 
 exclude:
-  - images
+  # - images
   - docs
   - Gemfile
   - Gemfile.lock
