@@ -1,6 +1,6 @@
 
 title: VALKET
-image: /images/*.*
+image: /images/logo-header.png
 email: gerovakety@abv.bg
 description: Simple description
 destination: docs
@@ -15,6 +15,7 @@ plugins:
   - jekyll-feed
 
 exclude:
+  - images
   - docs
   - Gemfile
   - Gemfile.lock
