@@ -1,6 +1,6 @@
 
 title: VALKET
-# image: /images/logo-header.png
+image: /images/*.*
 email: gerovakety@abv.bg
 description: Simple description
 destination: docs
