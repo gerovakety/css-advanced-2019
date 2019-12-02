@@ -7,7 +7,7 @@
     
     <title>VALKET</title>
     
-    <link rel="stylesheet" href="/css-advanced-2019/css/site.css">
+    <link rel="stylesheet" href="/css/site.css">
     <script>
             window.addEventListener('load', (event) => {
                 document.querySelector( "body" ).classList.add( "loaded");
@@ -17,18 +17,18 @@
 </head>
 <body class="page-about"> 
     
-    <div class="site">
+<div class="site">
+    <div class="site-wrapper">
         <input type="checkbox" id="site-nav-toggle" class="site-nav-toggle">
+<header class="site-header">
+            
+            <label for="site-nav-toggle" class="site-nav-toggle-label"><i class="fas fa-bars"></i></label>
 
-        <header class="site-header">
-            
-            <label for="site-nav-toggle" class="site-nav-label"><i class="fas fa-bars"></i></label>
-            
-            <nav class="site-nav">
+<nav class="site-nav">
     <ul>
         
         
-        <li><img src="/css-advanced-2019/images/logo-header.png"></li>
+        <li><img src="/images/logo-header.png"></li>
         <li><h1>VALKET</h1></li>
     </ul>
     <ul>
@@ -39,19 +39,19 @@
         
         
         
-                <li class="page-title-"><a href="/css-advanced-2019/">Home</a></li> 
+                <li class="page-title-"><a href="/">Home</a></li> 
         
         
         
-                <li class="page-title-"><a href="/css-advanced-2019/about/">About</a></li> 
+                <li class="page-title-"><a href="/about/">About</a></li> 
         
         
         
-                <li class="page-title-"><a href="/css-advanced-2019/gallery/">Gallery</a></li> 
+                <li class="page-title-"><a href="/gallery/">Gallery</a></li> 
         
         
         
-                <li class="page-title-"><a href="/css-advanced-2019/contacts/">Contacts</a></li> 
+                <li class="page-title-"><a href="/contacts/">Contacts</a></li> 
         
         
         
@@ -63,12 +63,13 @@
                 <p>This is my portfolio</p>
             </section>  
 
-        </header>
-
-        <main class="site-main">
-            
+</header>
+    </div>
+<main class="site-main">
+    <div class="site-wrapper">        
             <body>
     <div class="section">
+        <!-- <div class="site-wrapper"> -->
 
         <!-- <input type="checkbox" name="experiance_id_1_more" id="experiance_id_1_more"> -->
 
@@ -138,14 +139,15 @@
             <li>Master of Arts, Faculty of Applied Arts</li>
         </ul>
     </section>
+    <!-- </div> -->
 </div>
         <article class="skills">
             <h4><i class="fas fa-chalkboard-teacher"></i><strong>SKILLS</strong></h4>
             <p>Adobe Photoshop, Illustrator, InDesign, Corel Draw, Adobe XD, Quark XPress, Macromedia, Dreamweaver, 3DS Max, Power Point, Archicad, Artlantis, Creator, Fortuna, Impose, Transcript, Wordpress platform etc.</p>
         </article>
 </body>
-            
-        </main>
+    </div>
+</main>
 
         <footer class="site-footer">
             <p>VALKET &copy; All rights reserved</p>

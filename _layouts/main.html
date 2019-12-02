@@ -17,12 +17,10 @@
 </head>
 <body class="page-{{ page.title | slugify }}"> 
     
-    <div class="site">
+<div class="site">
+    <div class="site-wrapper">
         <input type="checkbox" id="site-nav-toggle" class="site-nav-toggle">
-
-        <header class="site-header">
-            
-            <label for="site-nav-toggle" class="site-nav-label"><i class="fas fa-bars"></i></label>
+<header class="site-header">
             
             {% include navigation.html %}
              
@@ -31,13 +29,13 @@
                 <p>This is my portfolio</p>
             </section>  
 
-        </header>
-
-        <main class="site-main">
-            
+</header>
+    </div>
+<main class="site-main">
+    <div class="site-wrapper">        
             {{ content }}
-            
-        </main>
+    </div>
+</main>
 
         <footer class="site-footer">
             <p>{{ site.title}} &copy; All rights reserved</p>

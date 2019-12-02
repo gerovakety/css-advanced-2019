@@ -9,7 +9,14 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     padding: 1em 4em;
+
+    @include bp(mobile) {
+        display: block;
+    }
   
+    @include bp(phone) {
+        display: block;
+    }
 }
 
 .experiance {
